@@ -1,5 +1,6 @@
-# Secret Santa - EQ.13 BEDU
+# Secret Santa - BEDU
 Proyecto final del bootcamp de JS de BEDU
+-.Versión Individual.-
 
 ## Descripción General de la aplicación:
 Esta aplicación permite crear un grupo de intercambio con una lista de invitados entre los cuales se darán regalos de forma secreta.
@@ -32,12 +33,7 @@ opinión sobre sus regalos).
 - ...
 
 ## Deployment (en revisión)
-### Opciones más recomendadas:
-- netlify.com
+- netlify.com - En pruebas
 - vercel.com
 - render.com
 - railway.app
-- Google Cloud (prueba de 90 días con 300 USD en creditos)
-
-### Backend puro
-- fly.io (2,340 hrs por mes, se congela el servicio al terminarlas)
