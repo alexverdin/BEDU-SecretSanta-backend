@@ -1,0 +1,31 @@
+{
+  "name": "backend-jack-o-gift",
+  "version": "0.0.1",
+  "description": "practice for the final project of BEDU JS Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexverdin/Jack-O-Gift.git"
+  },
+  "keywords": [
+    "gifts-exchange",
+    "halloween-app",
+    "nodejs",
+    "mysql",
+    "express",
+    "jwt"
+  ],
+  "author": "alexverdin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexverdin/Jack-O-Gift/issues"
+  },
+  "homepage": "https://github.com/alexverdin/Jack-O-Gift#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
