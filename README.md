@@ -1,23 +1,27 @@
-# Secret Santa - BEDU
-Proyecto final del bootcamp de JS de BEDU
--.Versión Individual.-
+# Halloween version of "secret santa"
+Test for final project from BEDU JS Bootcamp
 
-## Descripción General de la aplicación:
-Esta aplicación permite crear un grupo de intercambio con una lista de invitados entre los cuales se darán regalos de forma secreta.
-Se manejan dos roles: Participante y Organizador.
-Se establecen fechas límites en cada actividad: Unión de participantes con tiempo para crear la "wishlist" de cada uno, fecha del sorteo y fecha de intercambio.
-Cada participante puede crear su wishlist y editarla tanto como desee, siempre que sea antes de la fecha del sorteo (para evitar que una vez realizado este último, el usuario cambie de
-opinión sobre sus regalos).
+## Getting Started
+- git clone
+- npm install
+- <ToDO>
 
-## Características:
-- Registro de nuevos usuarios
-- Los participantes pueden ver en todo momento a quién le darán su obsequio, así como la wishlist del mismo.
-- Los Organizadores pueden ser o no Participantes.
-- La aplicación está diseñada para no "cerrar" los intercambios, de modo que el intercambio siempre termine con el último participante entregando su regalo al primero.
-- En el momento en el que el organizador realice el sorteo, la posibilidad de agregar nuevos usuarios y/o editar la wishlist será eliminada (mostrando una advertencia previa a la ejecución del sorteo).
-- En la wishlist se permite agregar URL  e imágenes del obsequio a fin de facilitar la búsqueda del mismo por parte de los participantes.
+## Description:
+This app allows you to create an exchange group with a list of guests among whom gifts will be given secretly, using halloween as the main theme.
+Two roles (for now) are handled: Participant and Organizer.
+Deadlines are established in each activity: Union of participants with time to create each one's "wishlist", draw date and exchange date.
+Each participant can create their wish list and edit it as much as they want, as long as it is before the date of the draw (to avoid that once the draw is done, the user changes their
+opinion about her gifts).
 
-## Tecnologías:
+## Characteristics:
+- Registration of new users
+- Participants can see at all times who they will give their gift to, as well as their wishlist.
+- The Organizers may or may not be Participants.
+- The app is designed not to "close" exchanges, so that the exchange always ends with the last participant giving their gift to the first.
+- At the time the organizer carries out the draw, the possibility of adding new users and/or editing the wishlist will be eliminated (showing a warning prior to the execution of the draw).
+- In the wishlist it is allowed to add URLs and images of the gift in order to facilitate the search for it by the participants.
+
+## Technologies:
 ### Backend
 - NodeJS
 - Express
@@ -32,8 +36,8 @@ opinión sobre sus regalos).
 - ReactJS
 - ...
 
-## Deployment (en revisión)
-- netlify.com - En pruebas
+## Deployment (in review)
+- netlify.com - testing
 - vercel.com
 - render.com
 - railway.app

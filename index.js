@@ -5,6 +5,10 @@ app.get("/test", function(req, res){
     res.send("Boo!");
 });
 
+app.get("/poyo", function(req, res){
+    res.send("POYO!");
+});
+
 app.listen(6060, function(){
-    console.log("> Escuchando en el puerto 6060");
+    console.log("> Listening in the port ");
 });
