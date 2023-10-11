@@ -16,16 +16,16 @@ jobs:
         # El proceso se ejecutará sobre un container de Ubuntu, en su última versión
         runs-on: ubuntu-latest
         steps:
-            # nombre de la acción
+            # nombre de la acción a ejecutar
             - name: Clone code latest version
-                # "checkout" es un workflow oficial de github, tomado del marketplace
-                uses: actions/checkout@v4
+              # "checkout" es un workflow oficial de github, tomado del marketplace
+              # IMPORTANTE que esté en la misma identación que "name", sin el guión
+              uses: actions/checkout@v4
 
             - name: Run testing on a NodeJS ambient
-                uses: actions/setup-node@v3
-                with:
-                    node-version: 18
+              uses: actions/setup-node@v3
+              with:
+                node-version: 18
 
             # Ejecutar los comandos que aseguren la integridad del código
             - run: npm install
-            
