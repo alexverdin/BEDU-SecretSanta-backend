@@ -40,4 +40,7 @@ opinion about her gifts).
 - netlify.com - testing
 - vercel.com
 - render.com
+- fly.io
 - railway.app
+- glitch.com
+- Google Cloud Platform (trial 300 USD)

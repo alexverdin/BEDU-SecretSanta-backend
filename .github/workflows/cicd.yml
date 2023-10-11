@@ -1,0 +1,31 @@
+# Nombre del proceso (de libre elección)
+name: Continuous Integration/Continuous Delivery
+
+# El proceso se ejecuta en cada push de CUALQUIER rama
+# on: [push]
+
+# El proceso se ejecuta SOLO en push a la rama 'main'
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    # nombre del proceso a ejecutar (de libre elección)
+    continuous-integration:
+        # El proceso se ejecutará sobre un container de Ubuntu, en su última versión
+        runs-on: ubuntu-latest
+        steps:
+            # nombre de la acción
+            - name: Clone code latest version
+                # "checkout" es un workflow oficial de github, tomado del marketplace
+                uses: actions/checkout@v4
+
+            - name: Run testing on a NodeJS ambient
+                uses: actions/setup-node@v3
+                with:
+                    node-version: 18
+
+            # Ejecutar los comandos que aseguren la integridad del código
+            - run: npm install
+            

@@ -1,14 +1,14 @@
 const express = require("express");
 const app = express();
 
-app.get("/test", function(req, res){
-    res.send("Boo!");
-});
+// importamos los router
+const testRouter = require('./routers/test');
+const booRouter = require('./routers/boo');
 
-app.get("/poyo", function(req, res){
-    res.send("POYO!");
-});
+// conectamos los routers con el index
+app.use(testRouter);
+app.use(booRouter);
 
 app.listen(6060, function(){
-    console.log("> Listening in the port ");
+    console.log("> Listening in the port 6060");
 });
