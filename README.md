@@ -37,6 +37,7 @@ opinion about her gifts).
 - ...
 
 ## Deployment (in review)
+- fl0.com (in review)
 - netlify.com - testing
 - vercel.com
 - render.com
