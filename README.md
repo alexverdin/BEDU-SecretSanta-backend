@@ -1,10 +1,9 @@
 # Halloween version of "secret santa"
-Test for final project from BEDU JS Bootcamp
 
 ## Getting Started
 - git clone
 - npm install
-- <ToDO>
+- ... (?)
 
 ## Description:
 This app allows you to create an exchange group with a list of guests among whom gifts will be given secretly, using halloween as the main theme.
@@ -24,20 +23,14 @@ opinion about her gifts).
 ## Technologies:
 ### Backend
 - NodeJS
-- Express
-- JOI
-- JWT
-- MySQL
+- Express (?)
+- JOI (?)
+- JWT (?)
+- some SQL Database (?)
 - ...
 
-### Frontend
-- HTML
-- CSS
-- ReactJS
-- ...
-
-## Deployment (in review)
-- fl0.com (in review)
+## Deploy (to check)
+- fl0.com
 - netlify.com - testing
 - vercel.com
 - render.com
@@ -45,3 +38,4 @@ opinion about her gifts).
 - railway.app
 - glitch.com
 - Google Cloud Platform (trial 300 USD)
+- ... another one (?)
